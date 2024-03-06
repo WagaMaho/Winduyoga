@@ -1,0 +1,318 @@
+body {
+    background-image: url(IMG_20240212_075727.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin: 0%;
+    background-attachment: fixed;
+
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    padding: 20px;
+    font-family: 'Montserrat' ;
+    
+    
+} 
+
+.navbar1 {
+    display: flex;
+    margin-top: -60px;
+    margin-left: 10px;
+    text-align: center; 
+    
+    
+} 
+
+.bulatcalgot {
+    background-color: rgb(255, 255, 255); 
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+   
+}
+.text {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+}
+
+
+
+.profil {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 10px;
+    color: white;
+    font-size: small;
+    opacity: 0%;
+    transition: opacity 2s ease-in, font-size 0s ease;
+}
+ .profil:hover{
+    opacity: 100%;
+    font-size: large;
+ }
+ 
+
+.bulatan {
+    background-color: rgb(0, 0, 0);
+    opacity: 60%; 
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: opacity 1s ease, width 1s ease
+}
+
+.bulatan:hover {
+    opacity: 70%;
+    width: 120px;
+}
+
+.bulatan2 {
+    background-color: rgb(0, 0, 0);
+    opacity: 50%; 
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: opacity 1s ease, width 0,3s ease, height 0,3s ease ;
+    
+}
+
+.bulatan2:hover {
+    opacity: 70%;
+    width: 42px;
+    height: 42px;
+    margin-top: -2px;
+}
+
+.foto1 {
+    margin-top: 6px;
+    width: 70%;
+    margin-right: 2px;
+    transition: margin-right 0,5s ease, opacity 1s ease;
+}
+
+.foto2 {
+    margin-top: 6px;
+    width: 70%;
+    margin-left: 2px;
+    transition: margin-left 0,5s ease, opacity 1s ease;
+    transform: rotate(180deg);
+}
+
+.foto1:hover {
+    margin-left: -5px;
+}
+
+.foto2:hover {
+    margin-right: -5px;
+}
+
+.box1 {
+    margin-left: 2%;
+    font-family: 'Montserrat' ;
+}
+
+.judul {
+    color: white;
+    padding-top: 550px;
+    font-weight: bold;
+    font-size: 90%;
+    
+}
+
+.judul1 {
+    color: white;
+    font-size: 500%;
+    letter-spacing: -3px;
+
+}
+
+.judul2 {
+    color: white;
+    font-size: 100%;
+}
+
+.kotak2 {
+    background: linear-gradient(to bottom, #416879 , rgba(0, 0, 0, 10), #000 );
+    height: 450px;
+    box-shadow: 0px 0px 1000px 250px rgba(0, 0, 0, 0.8);
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.kotak3 {
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    padding: 50px;
+    padding-top: 0px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+}
+.kotak4 {
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    padding: 50px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: last baseline;
+    padding-left: 0px;
+}
+.kotakdalam {
+    background: linear-gradient(to top right, #000, #416879);
+    height: 320px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.kotakdalam2 {
+    background-color: #4d6aff;
+    height: 300px;
+    border-radius: 5px;
+    padding: 30px;
+    padding-right: 50px;
+    display: flex;
+}
+
+.fotoprofil {
+    min-height: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+.namayoga {
+    padding-left: 30px;
+    font-size: 4.2em;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.profilpribadi {
+    font-size: 2em;
+    font-family: 'Montserrat';
+    color: white;
+    padding-left: 40px;
+}
+.profilpribadi1 {
+    font-size: 2em;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.teksstandar{
+    font-size: 1.3em;
+    font-family: 'Montserrat';
+    color: white;
+    margin: 30px;
+}
+.profilimg {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: max-width 0.3s ease;
+}
+
+.profilimg:hover {
+    max-width: 50.5%;
+}
+
+.selengkapnya {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    transition: border 0.1s ease, margin 0.1s ease, margin-left 0.1 ease;
+}
+
+.selengkapnya:hover {
+    border: 2px solid #ffffff;
+}
+
+.text1 {
+    text-align: center; 
+    font-family: 'Montserrat';
+    color: white;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+
+.calgot {
+    width: 230px;
+    height: 320px;
+    background-color: #152024;
+    border-radius: 10px;
+    margin: 27px;
+    margin-top: 0%;
+    transition: background-color 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+.calgot:hover {
+    background-color: #22353c;
+    width: 240px;
+    height: 330px;
+}
+
+.calgotimg {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px;
+    margin-bottom: 10px;
+}
+
+.calgottext {
+    color: white;
+    font-family: 'Montserrat';
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.calgottext2 {
+    font-size: 12px;
+    color: rgb(168, 168, 168);
+    font-family: 'Montserrat';
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    background: linear-gradient(to top, #000, #232e3c);
+    padding: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.calgottext00 {
+    color: rgb(176, 175, 175);
+    font-family: 'Montserrat';
+    margin: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+}
